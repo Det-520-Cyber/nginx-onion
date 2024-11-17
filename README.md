@@ -7,6 +7,7 @@
 ## Startup Commands
 
 Build: `docker build -t nginx-onion .`
+
 Run: `docker run -d -p 8100:80 nginx-onion`
 
 The site will be available locally at `localhost:8100`.
